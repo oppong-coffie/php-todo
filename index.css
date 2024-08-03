@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(to right, rgb(107, 2, 107), rgb(104, 2, 19));
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    height: 100vh;  
+    color: white;
+    flex-direction: column;
+}
+.main1{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+}
+.one{
+    display: flex;
+    background-color: rgb(1, 37, 1);
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 2px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.marked{
+    background-color: rgb(6, 190, 6);
+    color: wheat;
+}
+.edit{
+    background-color: blue;
+}
+.delete{
+    background-color: red;
+}
+.done{
+    background-color: pink;
+}
+input{
+    width: 50%;
+    margin-left: 20%;
+    /* border: none; */
+    box-shadow: 1px solid black;
+    padding: 10px;
+    height: 15px;
+}
+.activities{
+    padding-top: 25px;
+   
+}
